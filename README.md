@@ -9,66 +9,53 @@ A Simple Popup Modal. Designed by [planlodge](https://github.com/planlodge).
 ## Getting Started
 
  1. Include jQuery in your code.
- 2. Download and include the minislider.js file.
- 3. Pick your selector and apply minislider method and include images.
+ 2. Download and include the sliver.js file.
+ 3. Set the class to sliver and the data-modale to the id of the modal you want.
+ 4. Pick your selector and apply sliver method.
 
-## Example
+## Full Example
 
-    <!DOCTYPE html>
-	<html lang="en-US">
-	<head>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <title>Mini-Slider</title>
-	  <meta name="description" content="">
-	  <link rel="shortcut icon" href="http://palakmathur.in/images/icons/github.png" />
-	  <link rel="stylesheet" href="css/minislider.min.css" />
-	  <!-- demo purposes only -->
-	  <link rel="stylesheet" href="demo/demo.css" />
-	</head>
-	<body>
+		<!DOCTYPE html>
+		<html lang="en-US">
+		<head>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <title>Sliver JS</title>
+		  <meta name="description" content="">
+		  <link rel="shortcut icon" href="http://palakmathur.in/images/icons/github.png" />
+		  <link rel="stylesheet" href="css/sliver.min.css" />
+		</head>
+		<body>
 
-	<center>
-	<div id="wrapper">
+		<center>
+		<div id="wrapper">
 
-		<header>
-			<h1>Mini-Slider</h1>
-			<p>For the Minimalist.</p>
-		</header>
-		<!-- the slides -->
-		<div id="slideshow"></div>
-		
-		<footer>
-			<p>2015 Planlodge</p>
-		</footer>
-		
-	</div>
-	</center>
+		  <!-- the clickable link to start the popup -->
+		  <div><a class="sliver" href="" data-modale="intro">Open Popup</a></div>
 
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
-		<script src="src/minislider.min.js"></script> 
-		<script>
-		$(function(){
+		  <div><a class="sliver" href="" data-modale="extra">Try Another Popup</a></div>
 
-		  $('#slideshow').miniSlider({
-				
-				width: 500,
-				height: 300,
-				delay:	5000,
-				fadeSpeed: 1900,
-				images: [
-					'images/feature-11.png',
-					'images/feature-22.png',
-					'images/feature-33.png'
-				]
-				
+
+		  <div id="intro" class="sliver-popUp">Woah</div>
+		  <div id="extra" class="sliver-popUp">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+		  
+
+		</div>
+
+		  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+		  <script src="src/sliver.min.js"></script> 
+		  <script>
+		  $(function(){
+		    $('.sliver').sliver({
+		      fadeSpeed: 900,
+		      closeText: "Close"
+		    });
 		  });
+		  </script>
+		  
+		</body>
+		</html>
 
-		});
-		</script>
-		
-	</body>
-	</html>
 
 ## License
 
