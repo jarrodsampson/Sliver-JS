@@ -4,7 +4,7 @@ A Simple Popup Modal. Designed by [planlodge](https://github.com/planlodge).
 [![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
-![Atom](https://raw.githubusercontent.com/planlodge/MiniSlider/master/demo/record.gif)
+![Recording](https://raw.githubusercontent.com/planlodge/Sliver-JS/master/demo/recording.gif)
 
 ## Getting Started
 
