@@ -1,7 +1,7 @@
 # Sliver JS
 A Simple Popup Modal. Designed by [planlodge](https://github.com/planlodge).
 
-[![Build Status](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
+[![Build](https://travis-ci.org/stevenbenner/jquery-powertip.svg?branch=master)](https://travis-ci.org/stevenbenner/jquery-powertip)
 ![License](https://img.shields.io/packagist/l/doctrine/orm.svg)
 
 ![Recording](https://raw.githubusercontent.com/planlodge/Sliver-JS/master/demo/recording.gif)
